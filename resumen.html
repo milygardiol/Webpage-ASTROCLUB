@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Información - ASTRO CLUB</title>
+    <style>
+        body {
+            background-image: url('galaxia.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+
+        /* Bordes y estilo de tablas */
+        .table-bordered,
+        .table th,
+        .table td {
+            border-color: #45a29e;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="login.html">ASTRO CLUB</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resumen.html">Información</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Contactanos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="comunidades.html" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Comunidades
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="comunidades.html">Comunidad 1</a>
+                        <a class="dropdown-item" href="comunidades.html">Comunidad 2</a>
+                        <a class="dropdown-item" href="comunidades.html">Comunidad 3</a>
+                    </div>
+                </li>
+            </ul>
+    </div>
+    </nav>
+    </div>
+
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Resumen de Actividades y Logros</h2>
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Fecha</th>
+                    <th>Tipo de Evento</th>
+                    <th>Título</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10/10/2024</td>
+                    <td>Conferencia</td>
+                    <td>Exploración de Galaxias</td>
+                    <td>Charla sobre la última investigación en galaxias distantes.</td>
+                </tr>
+                <tr>
+                    <td>22/10/2024</td>
+                    <td>Observación</td>
+                    <td>Noche de Estrellas</td>
+                    <td>Evento de observación de constelaciones y estrellas fugaces.</td>
+                </tr>
+                <tr>
+                    <td>30/10/2024</td>
+                    <td>Workshop</td>
+                    <td>Astrofotografía</td>
+                    <td>Taller práctico de astrofotografía para principiantes.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

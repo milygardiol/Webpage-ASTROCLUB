@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Comunidades - ASTRO CLUB</title>
+    <style>
+        /* Estilo de las tarjetas (cards) */
+        body {
+            background-image: url('galaxia.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+
+        .card {
+            background-color: #1f2833;
+            color: #c5c6c7;
+            border: 1px solid #45a29e;
+        }
+
+        .card-title {
+            color: #66fcf1;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="login.html">ASTRO CLUB</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resumen.html">Información</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Contactanos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="comunidades.html" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Comunidades
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="comunidades.html">Comunidad 1</a>
+                        <a class="dropdown-item" href="comunidades.html">Comunidad 2</a>
+                        <a class="dropdown-item" href="comunidades.html">Comunidad 3</a>
+                    </div>
+                </li>
+            </ul>
+    </div>
+    </nav>
+    </div>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Comunidades de ASTRO CLUB</h2>
+        <div class="row">
+            <!-- Card de Comunidad 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Comunidad 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Comunidad 1: Exploración Galáctica</h5>
+                        <p class="card-text">Grupo especializado en la observación y estudio de galaxias lejanas.</p>
+                        <a href="#" class="btn btn-primary">Saber más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card de Comunidad 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Comunidad 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Comunidad 2: Cazadores de Nebulosas</h5>
+                        <p class="card-text">Grupo enfocado en la investigación y fotografía de nebulosas.</p>
+                        <a href="#" class="btn btn-primary">Saber más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card de Comunidad 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Comunidad 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Comunidad 3: Observadores de Estrellas</h5>
+                        <p class="card-text">Grupo que organiza observaciones nocturnas y estudios de estrellas.</p>
+                        <a href="#" class="btn btn-primary">Saber más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
